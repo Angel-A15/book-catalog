@@ -18,10 +18,22 @@ My clients requests are as follow:
   
   * Signing up will require: valid email address, username, and password
   * Logging in will require: email address and password
-  * Logging out will return the page back to 
+  * Logging out will return the page to default
+  when the application is opened
   
 
 ## Description
+In order to construct an application to fulfill my clients requests,
+I have styled a codebase with the following:
+ * Replaced existing Restful API's with a GraphQl API structure
+ * Modified existing authentication middleware to comply in context 
+ with GraphQL
+ 
+ * Established Apollo Provider to ebable requests to communticate with 
+ Apollo Server
+ * A front/back end data base that consist of implicating mutations, 
+ queries, and import/export typeDefs and resolvers
+ 
 
 ## Preview to Page
 
